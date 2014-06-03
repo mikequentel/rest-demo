@@ -25,4 +25,5 @@ Demo showing use of OpenResty (Nginx) to create a REST application.
   make
   sudo make install
   ```
+1. Download CSV file of restaurant inspections from US Data.gov site: http://catalog.data.gov/dataset/food-service-establishment-inspections-beginning-2005-active/resource/3585d295-3e75-4745-81e8-245326d3b2b0
 
