@@ -4,6 +4,7 @@ rest-demo
 Demo showing use of OpenResty (Nginx) to create a REST application.
 
 ## Getting Started
+1. Download and install [PostgreSQL](http://www.postgresql.org/)
 1. Download and install [OpenResty](http://openresty.org/)
   * On Linux, have to install the pre-requisites [pcre](http://www.pcre.org/) and [libpq](http://www.postgresql.org/docs/current/static/libpq.html)
   * To configure OpenResty, do:
