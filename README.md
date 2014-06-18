@@ -27,3 +27,12 @@ Demo showing use of OpenResty (Nginx) to create a REST application.
   ```
 1. Download CSV file of restaurant inspections from US Data.gov site: http://catalog.data.gov/dataset/food-service-establishment-inspections-beginning-2005-active/resource/3585d295-3e75-4745-81e8-245326d3b2b0
 
+1. Create a database called "businesses", using the script `data/create_businesses_database.sh`
+
+1. Load the CSV file of restaurant inspections into the businesses database, using the script `data/load_restaurants.sql`
+
+1. Change the column names in the restaurants table to more "developer-friendly" names using the script `data/rename_columns.sql`
+
+1. Trim (remove) excess whitespaces in character columns using the script `data/trim_all_char_columns.sql`
+
+
