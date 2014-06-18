@@ -1,0 +1,3 @@
+-- Examples of select by date...
+-- select * from restaurants where CAST("DATE OF INSPECTION" as date) = '06/07/2006';
+select distinct date_of_inspection from restaurants where cast(date_of_inspection as date) between '2012-01-01' and NOW();
