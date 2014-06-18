@@ -35,4 +35,6 @@ Demo showing use of OpenResty (Nginx) to create a REST application.
 
 1. Trim (remove) excess whitespaces in character columns using the script `data/trim_all_char_columns.sql`
 
+1. Start Nginx using the script `nginx/work/start.sh`
 
+1. Launch browser and navigate to `http://localhost:8080/restaurants/ANCIENT ORDER OF HIBERNIANS`
