@@ -2,6 +2,8 @@ On Linux, have to install the pre-requisites pcre and libpq
 
 To configure OpenResty, do:
 
+export PATH=$PATH:/sbin
+
 ./configure --with-cc-opt="-I/usr/local/include" --with-ld-opt="-L/usr/local/lib" --with-http_postgres_module --with-luajit
 
 Some other options that you might want to include:
