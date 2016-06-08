@@ -10,10 +10,13 @@ Demo showing use of OpenResty (Nginx) to create a REST application. Inspired by 
     ```
     sudo -u postgres psql postgres
     ```
+    * Alternatively, can do the above in two steps: 1) `sudo -u postgres` and then `psql postgres`
+      
     * Then, at postgres prompt:
     ```
     \password postgres
     ```
+    * Alternatively, at the postgres prompt, can simply enter `\password` and interactively provide a password.
 1. Download, install, and configure [OpenResty](http://openresty.org/)
   * On Linux, have to install the pre-requisites [pcre](http://www.pcre.org/) and [libpq](http://www.postgresql.org/docs/current/static/libpq.html)
   * To configure OpenResty, do:
