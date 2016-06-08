@@ -1,7 +1,7 @@
 rest-demo
 =========
 
-Demo showing use of OpenResty (Nginx) to create a REST application. Inspired by "Simple API with Nginx and PostgreSQL" by Richard Nyström at http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html
+Demo showing use of OpenResty (Nginx) to create a REST application. Inspired by (and used as a reference to get started) "Simple API with Nginx and PostgreSQL" by Richard Nyström at http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html
 
 ## Getting Started
 1. Download, install, and configure [PostgreSQL](http://www.postgresql.org/)
