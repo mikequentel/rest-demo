@@ -20,6 +20,9 @@ Demo showing use of OpenResty (Nginx) to create a REST application. Inspired by 
   ```
   ./configure --with-cc-opt="-I/usr/local/include" --with-ld-opt="-L/usr/local/lib" --with-http_postgres_module --with-luajit
   ```
+  
+  * If this error appears: `you need to have ldconfig in your PATH env when enabling luajit` then do: `export PATH=$PATH:/sbin` and re-run the configure command.
+  
   * Then do:
   ```
   make
