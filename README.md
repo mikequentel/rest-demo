@@ -10,7 +10,7 @@ Demo showing use of OpenResty (Nginx) to create a REST application. Inspired by 
     ```
     sudo -u postgres psql postgres
     ```
-    * Alternatively, can do the above in two steps: 1) `sudo -u postgres` and then `psql postgres`
+    * Alternatively, can do the above in two steps: 1) `sudo -u postgres` and then 2) `psql postgres`
       
     * Then, at postgres prompt:
     ```
