@@ -1,0 +1,1 @@
+﻿UPDATE restaurants SET facility = REPLACE(facility,'"', '');
